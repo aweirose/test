@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a44df5a4-edf1-4f2f-bd47-8db344995d90" name="Default Changelist" comment="" />
+    <list default="true" id="a44df5a4-edf1-4f2f-bd47-8db344995d90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="ini" value="3" />
           <entry key="py" value="6" />
         </counts>
@@ -28,11 +32,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="4" />
           <entry key="ini" value="171" />
           <entry key="py" value="1837" />
         </counts>
@@ -40,6 +46,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="171" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="1837" />
         </counts>
       </usages-collector>
@@ -47,11 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rosefans/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="450">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -135,6 +151,7 @@
         <option value="$PROJECT_DIR$/wechat/models.py" />
         <option value="$PROJECT_DIR$/rosefans/settings.py" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -145,10 +162,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="602" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1103" />
+    <option name="x" value="578" />
+    <option name="y" value="45" />
+    <option name="width" value="1264" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,11 +184,6 @@
               <item name="rosefans" type="b2602c69:ProjectViewProjectNode" />
               <item name="rosefans" type="462c0819:PsiDirectoryNode" />
               <item name="rosefans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rosefans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rosefans" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,9 +250,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="602" y="23" width="1920" height="1103" extended-state="0" />
+    <frame x="397" y="23" width="1264" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16986156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26104745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30860534" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34860334" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -323,8 +336,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rosefans/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
