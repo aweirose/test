@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a44df5a4-edf1-4f2f-bd47-8db344995d90" name="Default Changelist" comment="" />
+    <list default="true" id="a44df5a4-edf1-4f2f-bd47-8db344995d90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wechat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
         <counts>
           <entry key="gitignore" value="4" />
           <entry key="ini" value="171" />
-          <entry key="py" value="2156" />
+          <entry key="py" value="2162" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -48,7 +50,7 @@
         <counts>
           <entry key="Ini" value="171" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2156" />
+          <entry key="Python" value="2162" />
         </counts>
       </usages-collector>
     </session>
@@ -90,12 +92,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wechat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="434">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1536652335556" expanded="true" signature="586:595" ph="..." />
-                <marker date="1536652335556" expanded="true" signature="1039:1107" ph="..." />
+                <marker date="1536652625394" expanded="true" signature="586:595" ph="..." />
+                <marker date="1536652625394" expanded="true" signature="1039:1107" ph="..." />
               </folding>
             </state>
           </provider>
@@ -263,6 +265,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="469" y="112" width="1264" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2651391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -371,12 +374,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="434">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1536652335556" expanded="true" signature="586:595" ph="..." />
-            <marker date="1536652335556" expanded="true" signature="1039:1107" ph="..." />
+            <marker date="1536652625394" expanded="true" signature="586:595" ph="..." />
+            <marker date="1536652625394" expanded="true" signature="1039:1107" ph="..." />
           </folding>
         </state>
       </provider>
