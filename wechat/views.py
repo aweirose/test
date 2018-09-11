@@ -29,6 +29,7 @@ class WeixinView(View):
 
     def post(self, request):
         msg = parse_message(request.body)
+        print(msg)
         if msg.type == 'text':
             reply = create_reply('这是条文字消息', message=msg)
         elif msg.type == 'image':
@@ -36,15 +37,15 @@ class WeixinView(View):
         elif msg.type == 'voice':
             reply = create_reply('这是条语音消息', message=msg)
         elif msg.type == 'event':
-            openid = request.GET.get('source', None)
-            inf = client.user.get(openid)
+            # openid = request.GET.get('source', None)
+            # inf = client.user.get(openid)
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
                 # Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,
                 #                      sex=inf.sex, country=inf.country,
                 #                      province=inf.province, city=inf.city,
                 #                      subscribe_time=inf.subscribe_time, openid=inf.openid)
-                #print('666666')
+                # print('666666')
             # elif msg.event == 'unsubscribe':
             #     Users.objects.get(openid=inf.openid).delete()
             # elif msg.event == 'click':
