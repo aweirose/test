@@ -47,7 +47,6 @@ class WeixinView(View):
                                      sex=inf["sex"], country=inf["country"],
                                      province=inf["province"], city=inf["city"],
                                      subscribe_time=inf["subscribe_time"], openid=inf["openid"])
-                print('666666')
             elif msg.event == 'unsubscribe':
                 Users.objects.get(openid=openid).delete()
             # elif msg.event == 'click':
