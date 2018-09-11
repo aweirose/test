@@ -37,7 +37,7 @@ class WeixinView(View):
         elif msg.type == 'voice':
             reply = create_reply('这是条语音消息', message=msg)
         elif msg.type == 'event':
-            openid = request.GET.get('source', None)
+            openid = request.GET.get('openid', None)
             print(openid)
             # inf = client.user.get(openid)
             if msg.event == 'subscribe':
