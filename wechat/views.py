@@ -37,8 +37,8 @@ class WeixinView(View):
         elif msg.type == 'voice':
             reply = create_reply('这是条语音消息', message=msg)
         elif msg.type == 'event':
-            # openid = request.GET.get('source', None)
-            # inf = client.user.get(openid)
+            openid = request.GET.get('source', None)
+            inf = client.user.get(openid)
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
                 # Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,
