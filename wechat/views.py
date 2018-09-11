@@ -40,10 +40,10 @@ class WeixinView(View):
             inf = client.user.get(openid)
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
-                Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,
-                                     sex=inf.sex, country=inf.country,
-                                     province=inf.province, city=inf.city,
-                                     subscribe_time=inf.subscribe_time, openid=inf.openid)
+                # Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,
+                #                      sex=inf.sex, country=inf.country,
+                #                      province=inf.province, city=inf.city,
+                #                      subscribe_time=inf.subscribe_time, openid=inf.openid)
                 print('666666')
             elif msg.event == 'unsubscribe':
                 Users.objects.get(openid=inf.openid).delete()
