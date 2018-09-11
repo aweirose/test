@@ -39,7 +39,7 @@ class WeixinView(View):
         elif msg.type == 'event':
             openid = request.GET.get('openid', None)
             print(openid)
-            user = client.user.get(openid)
+            user = client.user.get('o-Njg0grnFp0LNHidvhKNek6_H88')
             print(user.nickname)
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
