@@ -41,7 +41,7 @@ class WeixinView(View):
             openid = request.GET.get('openid', None)
             print(openid)
             user = client.user.get('o-Njg0grnFp0LNHidvhKNek6_H88')
-            print(json.loads(user)['nickname'])
+            print(type(user))
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
                 # Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,

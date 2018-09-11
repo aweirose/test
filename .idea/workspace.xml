@@ -40,7 +40,7 @@
         <counts>
           <entry key="gitignore" value="4" />
           <entry key="ini" value="171" />
-          <entry key="py" value="2234" />
+          <entry key="py" value="2258" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -48,7 +48,7 @@
         <counts>
           <entry key="Ini" value="171" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2234" />
+          <entry key="Python" value="2258" />
         </counts>
       </usages-collector>
     </session>
@@ -90,12 +90,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wechat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="22" column="77" lean-forward="true" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+            <state relative-caret-position="371">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1536653706992" expanded="true" signature="586:595" ph="..." />
-                <marker date="1536653706992" expanded="true" signature="1039:1107" ph="..." />
+                <marker date="1536654026098" expanded="true" signature="598:607" ph="..." />
+                <marker date="1536654026098" expanded="true" signature="1051:1119" ph="..." />
               </folding>
             </state>
           </provider>
@@ -173,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="363" />
     <option name="y" value="140" />
     <option name="width" value="1264" />
@@ -262,8 +262,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="361" y="138" width="1264" height="987" extended-state="0" />
-    <editor active="true" />
+    <frame x="363" y="140" width="1264" height="987" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2651391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,12 +371,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="22" column="77" lean-forward="true" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        <state relative-caret-position="371">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1536653706992" expanded="true" signature="586:595" ph="..." />
-            <marker date="1536653706992" expanded="true" signature="1039:1107" ph="..." />
+            <marker date="1536654026098" expanded="true" signature="598:607" ph="..." />
+            <marker date="1536654026098" expanded="true" signature="1051:1119" ph="..." />
           </folding>
         </state>
       </provider>
