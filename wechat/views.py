@@ -7,6 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from wechatpy.replies import create_reply, ImageReply, TextReply
 from wechat.models import Users, Menu_click_count
 from wechatpy import WeChatClient
+import json
 
 client = WeChatClient('wxe107b5305c822984', '6ab57d5431be57957aa2747dd29a0f1a')
 
@@ -40,7 +41,7 @@ class WeixinView(View):
             openid = request.GET.get('openid', None)
             print(openid)
             user = client.user.get('o-Njg0grnFp0LNHidvhKNek6_H88')
-            print(user.nickname)
+            print(json.loads(user)['nickname'])
             if msg.event == 'subscribe':
                 reply = create_reply('感谢你的关注', message=msg)
                 # Users.objects.create(nickname=inf.nickname, headimgurl=inf.headimgurl,
