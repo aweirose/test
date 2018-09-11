@@ -44,9 +44,9 @@ class WeixinView(View):
                 #                      sex=inf.sex, country=inf.country,
                 #                      province=inf.province, city=inf.city,
                 #                      subscribe_time=inf.subscribe_time, openid=inf.openid)
-                print('666666')
-            elif msg.event == 'unsubscribe':
-                Users.objects.get(openid=inf.openid).delete()
+                #print('666666')
+            # elif msg.event == 'unsubscribe':
+            #     Users.objects.get(openid=inf.openid).delete()
             # elif msg.event == 'click':
             #     reply = ImageReply(message=msg)
             #     media_id = '9kT9-alo_ph3g2I45zACW5X59Dqxbf45k-0Z89XXOSta_H_gqfnAhJvG557pqOEM'
