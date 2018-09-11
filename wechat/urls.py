@@ -3,5 +3,5 @@ from wechat import views
 
 urlpatterns = [
     path('link/', views.link),
-    path('rose/', views.WeixinView),
+    path('rose/', views.WeixinView.as_view()),
 ]

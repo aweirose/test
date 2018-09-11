@@ -4,7 +4,7 @@ from wechatpy.exceptions import InvalidSignatureException
 from wechatpy import parse_message
 from django.views.generic import View
 from django.views.decorators.csrf import csrf_exempt
-from wechatpy.replies import create_reply, ImageReply
+from wechatpy.replies import create_reply, ImageReply, TextReply
 from wechat.models import Users, Menu_click_count
 from wechatpy import WeChatClient
 
@@ -44,16 +44,16 @@ class WeixinView(View):
                                      sex=inf.sex, country=inf.country,
                                      province=inf.province, city=inf.city,
                                      subscribe_time=inf.subscribe_time, openid=inf.openid)
+                print('666666')
             elif msg.event == 'unsubscribe':
                 Users.objects.get(openid=inf.openid).delete()
-            elif msg.event == 'click':
-                reply = ImageReply(message=msg)
-                media_id = ["KWSk3qC9GEQZKdv2kRjX8PJA3QSmlntg_W0-dob5E2LIwv170APiLrJZhZv3PvFc",
-                            "FkJ-YMrLvLpTe3BNshOrn-jq9OWJqDtE-06ZWN0HxV2MkMAV-bxoZHKytr1JHCIl"]
-                reply.media_id = media_id
-                Menu_click_count.picture_click_count += 1
-            elif msg.event == 'view':
-                Menu_click_count.url_click_count += 1
+            # elif msg.event == 'click':
+            #     reply = ImageReply(message=msg)
+            #     media_id = '9kT9-alo_ph3g2I45zACW5X59Dqxbf45k-0Z89XXOSta_H_gqfnAhJvG557pqOEM'
+            #     reply.media_id = media_id
+            #     Menu_click_count.picture_click_count += 1
+            # elif msg.event == 'view':
+            #     Menu_click_count.url_click_count += 1
         else:
             reply = create_reply('这是条其他类型消息', message=msg)
         return HttpResponse(reply.render(), content_type=" ")
