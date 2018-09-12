@@ -1,7 +1,7 @@
-from django.urls import path
+from django.conf.urls import url
 from wechat import views
 
 urlpatterns = [
-    path('link/', views.link),
-    path('rose/', views.WeixinView.as_view()),
+    url('link/', views.link),
+    url('rose/', views.WeixinView.as_view()),
 ]
