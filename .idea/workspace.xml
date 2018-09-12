@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/rosefans/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gunicorn.conf.py" />
-        <option value="$PROJECT_DIR$/rosefans/urls.py" />
         <option value="$PROJECT_DIR$/wechat/urls.py" />
+        <option value="$PROJECT_DIR$/rosefans/urls.py" />
       </list>
     </option>
   </component>
@@ -189,8 +189,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="121" />
+    <option name="x" value="536" />
+    <option name="y" value="113" />
     <option name="width" value="1264" />
     <option name="height" value="987" />
   </component>
@@ -293,7 +293,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="121" width="1264" height="987" extended-state="0" />
+    <frame x="536" y="113" width="1264" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
