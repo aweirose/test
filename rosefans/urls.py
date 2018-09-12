@@ -14,9 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-
+from django.urls import url, include
+from django.views.static import serve
+from rosefans.settings import STATIC_ROOT
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('wechat/', include('wechat.urls')),
+    url(r'^admin/', admin.site.urls),
+    url(r'^wechat/', include('wechat.urls')),
+    url(r'^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT}),
 ]

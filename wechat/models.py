@@ -8,7 +8,7 @@ class Users(models.Model):
     #subscribe_status = models.IntegerField('用户关注状态', choices=SUBSCRIBE_STATUS, default=0)
     openid = models.CharField('openid', max_length=50, blank=True, null=True)
     nickname = models.CharField('昵称', max_length=50, blank=True, null=True)
-    headimgurl = models.TextField('头像', max_length=50, blank=True, null=True)
+    headimgurl = models.CharField('头像', max_length=255, blank=True, null=True)
     sex = models.IntegerField('性别', choices=SEX, default=0)
     country = models.CharField('国家', max_length=50, blank=True, null=True)
     province = models.CharField('省份', max_length=50, blank=True, null=True)

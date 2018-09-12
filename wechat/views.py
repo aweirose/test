@@ -1,3 +1,4 @@
+import logging
 from django.http import HttpResponse
 from wechatpy.utils import check_signature
 from wechatpy.exceptions import InvalidSignatureException
@@ -49,13 +50,13 @@ class WeixinView(View):
                                      subscribe_time=inf["subscribe_time"], openid=inf["openid"])
             elif msg.event == 'unsubscribe':
                 Users.objects.get(openid=openid).delete()
-            # elif msg.event == 'click':
-            #     reply = ImageReply(message=msg)
-            #     media_id = '9kT9-alo_ph3g2I45zACW5X59Dqxbf45k-0Z89XXOSta_H_gqfnAhJvG557pqOEM'
-            #     reply.media_id = media_id
-            #     Menu_click_count.picture_click_count += 1
-            # elif msg.event == 'view':
-            #     Menu_click_count.url_click_count += 1
+            elif msg.event == 'click':
+                reply = ImageReply(message=msg)
+                media_id = '9kT9-alo_ph3g2I45zACW5X59Dqxbf45k-0Z89XXOSta_H_gqfnAhJvG557pqOEM'
+                reply.media_id = media_id
+                Menu_click_count.picture_click_count += 1
+            elif msg.event == 'view':
+                Menu_click_count.url_click_count += 1
         else:
             reply = create_reply('这是条其他类型消息', message=msg)
         return HttpResponse(reply.render(), content_type=" ")
