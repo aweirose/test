@@ -20,5 +20,4 @@ from rosefans.settings import STATIC_ROOT
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^wechat/', include('wechat.urls')),
-    url(r'^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT}),
 ]
